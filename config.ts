@@ -6,8 +6,9 @@ import { Theme } from "types";
  *
  * @type {Theme}
  */
-export const theme: Theme = "business";
+export const theme: Theme = "cupcake";
 
-export const infomation = {
-	name: "Rohit",
+export const information = {
+	firstName: "Rohit",
+	lastName: "Sah",
 };
