@@ -9,14 +9,14 @@ const HomePage: NextPage = () => {
 		<>
 			<Navbar />
 			<div className="flex flex-col md:flex-row">
-				<div className="basis-1/3 flex-grow">
+				<div className="basis-2/5 w-full">
 					<div className="fixed flex flex-col">
 						<ProfilePanel />
 						<Projects />
 					</div>
 				</div>
 
-				<div className="basis-2/3">
+				<div className="basis-3/5">
 					<p>Right Panel</p>
 					<p>Right Panel</p>
 					<p>Right Panel</p>
