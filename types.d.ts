@@ -28,3 +28,32 @@ export type Theme =
   | "night"
   | "coffee"
   | "winter";
+
+  export interface InformationType {
+    email: string;
+    firstName: string;
+    lastName: string;
+    description: string;
+    socials: SocialType;
+    projects: ProjectType[];
+    whatido:string;
+    skills: SkillType[];
+  }
+
+  interface SkillType {
+    type: string;
+    list: string[];
+  }
+  
+  interface ProjectType {
+    name: string;
+    description: string;
+    link: string;
+    image: string;
+    badges: string[];
+  }
+  
+  type SocialType = {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    [key: string]: any;
+  };
