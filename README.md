@@ -90,6 +90,8 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 <h2 id="config">Config Information</h2>
 
+### Information Types
+
 <table>
   <thead>
     <tr>
@@ -148,7 +150,7 @@ I am a software engineer and a web developer. I am passionate about building web
 <td>highlightingStats</td>
 <td>
 
-`HighlightingStatType[]`
+<a href="#highlightStatsType">`HighlightingStatType[]`</a>
 
 </td>
             <td>
@@ -177,7 +179,8 @@ I am a software engineer and a web developer. I am passionate about building web
   <td>socials</td>
   <td>
 
-`SocialType`
+<a href="socialType">`SocialType`
+</a>
 
   </td>
   <td>Social Media Links, if you dont have a account pass `null` so that social media icon wont appear on the page.
@@ -208,7 +211,9 @@ I am a software engineer and a web developer. I am passionate about building web
 <tr>
 <td>skillsWithIcons</td>
 <td>
-`SkillType[]`
+
+<a href="skillType">`SkillType[]`</a>
+
 </td>
 <td>You can specify you skills here, they will come in the form of Icons.
 <img src="assets/skills-with-icons.png" alt="Skill with Icons">
@@ -233,7 +238,9 @@ I am a software engineer and a web developer. I am passionate about building web
 <tr>
 <td>skills</td>
 <td>
-`SkillType[]`
+
+<a href="skillType">`SkillType[]`</a>
+
 </td>
 <td> <strong>Without Icons</strong> You can specify you skills here, they will come in the form of badges.
 <img src="assets/skills-with-badges.png" alt="Skill with Icons">
@@ -254,7 +261,11 @@ I am a software engineer and a web developer. I am passionate about building web
 
 <tr>
 <td>projects</td>
-<td>`Project[]`</td>
+<td>
+
+<a href="project">`Project[]`</a>
+
+</td>
 <td>This is where you mention your projects. This is what it will look like after you generate it.
 <img src="assets/sample-project.png" alt="Sample Project"/>
 </td>
@@ -285,7 +296,9 @@ I am a software engineer and a web developer. I am passionate about building web
 <tr>
 <td>workExperince</td>
 <td>
-`WorkExperienceType[]`
+
+<a href="#workExperienceType">`WorkExperienceType[]`</a>
+
 </td>
 <td>This is where you mention all your work experince. The webpage will also be generated in the same sequence as this list
 <img src="assets/work-experience.png" alt="Work Experience"/>
@@ -302,7 +315,7 @@ I am a software engineer and a web developer. I am passionate about building web
 			learning: [
 				"Learnt to print Hello World",
 				"Learnt to center CSS divs",
-				"Learnt to crash the production the fastest.",
+				"Learnt to crash the production.",
 			],
 		},
 		{
@@ -314,7 +327,7 @@ I am a software engineer and a web developer. I am passionate about building web
 			learning: [
 				"Learnt to print Hello World",
 				"Learnt to center CSS divs",
-				"Learnt to crash the production the fastest.",
+				"Learnt to crash the production.",
 			],
 		},
 ```
@@ -335,6 +348,132 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 
 </tbody>
 
+</table>
+
+<h3 id="highlightStatsType">HighlightingStatType</h3>
+
+<table >
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>string</td>
+<td>Title of the stat</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>Value of the stat</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="skillType">SkillType</h3>
+
+<table >
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td>string</td>
+<td>Title for the Skill Type</td>
+</tr>
+<tr>
+<td>list</td>
+<td>string[]</td>
+<td>List of Skills</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="project">Project</h3>
+
+<table >
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>Name of the Project</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>Description of the Project</td>
+</tr>
+<tr>
+<td>link</td>
+<td>string</td>
+<td>Deployment of the Project of the Project</td>
+</tr>
+<tr>
+<td>image</td>
+<td>string</td>
+<td>Image of the Project</td>
+</tr>
+<tr>
+<td>badges</td>
+<td>string[]</td>
+<td>Badges for the Project</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="workExperienceType">WorkExperienceType</h3>
+
+<table >
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>company</td>
+<td>string</td>
+<td>Name of the Company</td>
+</tr>
+<tr>
+<td>designation</td>
+<td>string</td>
+<td>Designation at the Company</td>
+</tr>
+<tr>
+<td>time</td>
+<td>string</td>
+<td>Duration of work at the Company (Eg: 2019-2022)</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>Description of the Company</td>
+</tr>
+<tr>
+<td>learning</td>
+<td>string[]</td>
+<td>What you learnt at the company</td>
+</tr>
+</tbody>
 </table>
 
 ## Contributing
