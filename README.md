@@ -49,16 +49,15 @@ To get your own portfolio up and running as fast as possible, you can use this p
     ```sh
     https://github.com/sahrohit/portfolio.git
     ```
-  ![Fork Button](/assets/showing-fork.png)
+    ![Fork Button](/assets/showing-fork.png)
 2.  Rename your fork & add description.
-  ![New Fork Page](/assets/new-fork.png)
+    ![New Fork Page](/assets/new-fork.png)
 3.  If you see something like this, you've successfully forked the Repo.
-  ![Forking Completed](/assets/done-fork.png)
-  
+    ![Forking Completed](/assets/done-fork.png)
+
 4.  Find `config.ts` in the forked repo & open it.
-   
-  ![New Fork Page](/assets/show-config.png)
-5.  Edit the config according to your needs.
+
+![New Fork Page](/assets/show-config.png) 5. Edit the config according to your needs.
 
 <table>
   <thead>
