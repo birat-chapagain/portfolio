@@ -19,3 +19,5 @@ coverage
 
 **/*.d.ts
 **/*.config.js
+
+README.md
