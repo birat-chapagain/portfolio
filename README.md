@@ -21,7 +21,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot](https://shot.screenshotapi.net/screenshot?token=SYFRG8T-XWFMK5V-PGRW10V-VTR9YYG&url=https%3A%2F%2Fsahrohit.com.np&width=1536&height=722&full_page=true&output=image&file_type=webp&lazy_load=true&dark_mode=false&wait_for_event=domcontentloaded&delay=5000&ttl=86400)](https://effortless-portfolio.vercel.app)
+[![Product Name Screen Shot](https://shot.screenshotapi.net/screenshot?token=SYFRG8T-XWFMK5V-PGRW10V-VTR9YYG&url=https%3A%2F%2Feffortless-portfolio.vercel.app&width=1536&height=722&full_page=true&output=image&file_type=webp&lazy_load=true&dark_mode=false&wait_for_event=domcontentloaded&delay=5000&ttl=86400)](https://effortless-portfolio.vercel.app)
 
 Portfolio designed by KL Lawingo which has become a place to show off my skills which I learnt over the years. It has a long way to go, but it's a good start.
 
@@ -45,19 +45,50 @@ To get your own portfolio up and running as fast as possible, you can use this p
 
 ### Generating Portfolio
 
-1.  Fork the [sahrohit/effortless-portfolio](https://github.com/sahrohit/portfolio.git)
-    ```sh
-    https://github.com/sahrohit/portfolio.git
-    ```
-    ![Fork Button](/assets/showing-fork.png)
-2.  Rename your fork & add description.
-    ![New Fork Page](/assets/new-fork.png)
-3.  If you see something like this, you've successfully forked the Repo.
-    ![Forking Completed](/assets/done-fork.png)
+1. Fork the [sahrohit/effortless-portfolio](https://github.com/sahrohit/portfolio.git)
 
-4.  Find `config.ts` in the forked repo & open it.
+```sh
+https://github.com/sahrohit/portfolio.git
+```
 
-![New Fork Page](/assets/show-config.png) 5. Edit the config according to your needs.
+![Fork Button](/assets/showing-fork.png)
+
+2. Rename your fork & add description.
+
+![New Fork Page](/assets/new-fork.png)
+
+3. If you see something like this, you've successfully forked the Repo.
+
+![Forking Completed](/assets/done-fork.png)
+
+4. Find `config.ts` in the forked repo & open it.
+
+![New Fork Page](/assets/show-config.png)
+
+5. Edit the config according to your needs. You can reference <a href="#config">`config information`</a> for the type of data you need to provide.
+
+![New Fork Page](/assets/edit-config.png)
+
+### After Setting Up
+
+To initialize the frontend,
+
+`npm run dev` - Starts a Next App at http://localhost:3000
+
+<!-- ROADMAP -->
+<!--
+## Roadmap
+
+-   [] Feature 1
+-   [] Feature 2
+-   [] Feature 3
+    -   [] Nested Feature
+
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
+
+<!-- CONTRIBUTING -->
+
+<h2 id="config">Config Information</h2>
 
 <table>
   <thead>
@@ -66,7 +97,7 @@ To get your own portfolio up and running as fast as possible, you can use this p
       <td>Type</td>
       <td>Description</td>
       <td>Example</td>
-      </tr>
+    </tr>
   </thead>
   <tbody>
     <tr>
@@ -109,7 +140,9 @@ To get your own portfolio up and running as fast as possible, you can use this p
 
 </td>
 <td>Description about yourself. (usually 20 words)</td>
-<td>I am a software engineer and a web developer. I am passionate about building web applications and solving problems.</td>
+<td>
+<span style="word-break:normal;word-wrap:normal">
+I am a software engineer and a web developer. I am passionate about building web applications and solving problems.</span></td>
 </tr>
 <tr>
 <td>highlightingStats</td>
@@ -154,9 +187,9 @@ To get your own portfolio up and running as fast as possible, you can use this p
 
 ```ts
 {
-		github: "http://github.com/sahrohit",
-		linkedin: "https://www.linkedin.com/in/sahrohit/",
-		twitter: "https://twitter.com/sah_rohite",
+  github: "http://github.com/sahrohit",
+  linkedin: "https://www.linkedin.com/in/sahrohit/",
+  twitter: "https://twitter.com/sah_rohite",
 }
 ```
 
@@ -186,11 +219,32 @@ To get your own portfolio up and running as fast as possible, you can use this p
 [
 	{
 		type: "Frontend Centric",
-		list: ["HTML", "CSS", "Javascript", "React", "Nextjs", "Angular"],
+		list: ["Javascript", "React", "Angular"],
 	},
 	{
 		type: "Backend Centric",
-		list: ["Typescript", "Graphql", "Nodejs", "Nestjs", "Expressjs"],
+		list: ["Graphql", "Nodejs", "Expressjs"],
+	},
+];
+```
+
+</td>
+</tr>
+<tr>
+<td>skills</td>
+<td>
+`SkillType[]`
+</td>
+<td> <strong>Without Icons</strong> You can specify you skills here, they will come in the form of badges.
+<img src="assets/skills-with-badges.png" alt="Skill with Icons">
+</td>
+<td>
+
+```ts
+[
+	{
+		type: "Frontend Centric",
+		list: ["English", "Nepali", "Japanese"],
 	},
 ];
 ```
@@ -220,7 +274,7 @@ To get your own portfolio up and running as fast as possible, you can use this p
 		description: "This is my portfolio website.",
 		link: "https://sahrohit.com.np/",
 		image: "https://picsum.photos/500/500",
-		badges: ["Javascript", "Typescript", "Nextjs", "ChakraUI"],
+		badges: ["Typescript", "Nextjs", "ChakraUI"],
 	},
 ];
 ```
@@ -242,7 +296,7 @@ To get your own portfolio up and running as fast as possible, you can use this p
 {
 			company: "Apple Inc.",
 			description:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
+				"Lorem ipsum dolor sit ...",
 			designation: "Senior Product Manager",
 			time: "2022 - Present",
 			learning: [
@@ -254,7 +308,7 @@ To get your own portfolio up and running as fast as possible, you can use this p
 		{
 			company: "Apple Inc.",
 			description:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
+				"Lorem ipsum dolor sit ...",
 			designation: "Senior Product Manager",
 			time: "2022 - Present",
 			learning: [
@@ -282,25 +336,6 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 </tbody>
 
 </table>
-
-### After Setting Up
-
-To initialize the frontend,
-
-`npm run dev` - Starts a Next App at http://localhost:3000
-
-<!-- ROADMAP -->
-<!--
-## Roadmap
-
--   [] Feature 1
--   [] Feature 2
--   [] Feature 3
-    -   [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
-
-<!-- CONTRIBUTING -->
 
 ## Contributing
 
