@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./public/logo_light.png" alt="Logo" width="80" height="80">
+    	<img src="./public/logo_light.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Effortless Portfolio</h3>
@@ -47,29 +47,72 @@ To get your own portfolio up and running as fast as possible, you can use this p
 
 1. Fork the [sahrohit/effortless-portfolio](https://github.com/sahrohit/portfolio.git)
 
-```sh
-https://github.com/sahrohit/portfolio.git
-```
+   ```sh
+   https://github.com/sahrohit/portfolio.git
+   ```
 
-<img src="assets/showing-fork.png" width="600" alt="Fork Button">
+   <img src="assets/showing-fork.png" width="600" alt="Fork Button">
 
 2. Rename your fork & add description.
 
-<img src="assets/new-fork.png" width="600" alt="New Fork Page">
+	<img src="assets/new-fork.png" width="600" alt="New Fork Page">
 
-3. If you see something like this, you've successfully forked the Repo.
+	If you see something like this, you've successfully forked the Repo.
 
-<img src="assets/done-fork.png" width="600" alt="Forking Completed">
+	<img src="assets/done-fork.png" width="600" alt="Forking Completed">
 
-4. Find `config.ts` in the forked repo & open it.
+3. Find `config.ts` in the forked repo & open it.
 
-<img src="assets/show-config.png" width="600" alt="New Fork Page">
+	<img src="assets/show-config.png" width="600" alt="New Fork Page">
 
-5. Edit the config according to your needs. You can reference <a href="#config">`config information`</a> for the type of data you need to provide.
+4. Edit the config according to your needs. You can reference <a href="#config">`config information`</a> for the type of data you need to provide.
 
-<img src="assets/edit-config.png" width="600" alt="New Fork Page">
+	<img src="assets/edit-config.png" width="600" alt="New Fork Page">
 
-### After Setting Up
+### Deploying Portfolio on Vercel
+
+(Loggin in with Github is recommended.)
+
+1. Create a new project on Vercel.
+
+	<img src="assets/newproject-vercel.png" width="600" alt="New Project Vercel">
+
+2. Import your forked portfolio to vercel.
+
+	<img src="assets/importproject-vercel.png" width="600" alt="Import Project Vercel">
+
+3. Click on the big blue `Deploy` button. Dont edit anything, if you dont know what you're doing.
+
+	<img src="assets/deploy-vercel.png" width="600" alt="Import Project Vercel">
+
+4. Wait for the deployment to complete. You can see the build process on the screen.
+5. Once the deployment is complete, you can visit the portfolio by clicking on the portfolio preview.
+
+### Setting up Domain on Vercel
+
+1. Click on the `Domains` tab on the left sidebar.
+
+   <img src="assets/domains-vercel.png" width="600" alt="Domains Vercel">
+
+   a. If you dont have a domain already, you can edit the default domain, but make sure you have `vercel.app` at the end.
+
+   <img src="assets/editdomain-vercel.png" width="600" alt="Add Domain Vercel">
+
+   <img src="assets/editingdomain-vercel.png" width="600" alt="Add Domain Vercel">
+
+   b. If you have a domain, you can add it by clicking on the `Add Domain` button.
+
+   Before adding the domain change your Nameservers to the ones provided by Vercel.
+
+   - NAMESERVER 1: `ns1.vercel-dns.com`
+   - NAMESERVER 2: `ns2.vercel-dns.com`
+   
+   <br/>
+   <img src="assets/adddomain-vercel.png" width="600" alt="Add Domain Vercel">
+
+If you want more details on how to add domain with vercel. You can check out this [article](https://vercel.com/docs/custom-domains).
+
+### To run a local copy on system
 
 To initialize the frontend,
 
@@ -155,7 +198,7 @@ I am a software engineer and a web developer. I am passionate about building web
 </td>
             <td>
             This appears as the highligted stats. Flex you huge numbers like Reddit Karma, Github Stars ✨.
-            <img src="assets/highlight-stats.png" alt="Highlight Stats"/>
+            	<img src="assets/highlight-stats.png" alt="Highlight Stats"/>
             </td>
             <td>
 
@@ -179,12 +222,12 @@ I am a software engineer and a web developer. I am passionate about building web
   <td>socials</td>
   <td>
 
-<a href="socialType">`SocialType`
+<a href="#socialType">`SocialType`
 </a>
 
   </td>
   <td>Social Media Links, if you dont have a account pass `null` so that social media icon wont appear on the page.
-  <img src="assets/social-icons.png" alt="Highlight Stats"/>
+  	<img src="assets/social-icons.png" alt="Highlight Stats"/>
   </td>
   <td>
 
@@ -212,11 +255,11 @@ I am a software engineer and a web developer. I am passionate about building web
 <td>skillsWithIcons</td>
 <td>
 
-<a href="skillType">`SkillType[]`</a>
+<a href="#skillType">`SkillType[]`</a>
 
 </td>
 <td>You can specify you skills here, they will come in the form of Icons.
-<img src="assets/skills-with-icons.png" alt="Skill with Icons">
+	<img src="assets/skills-with-icons.png" alt="Skill with Icons">
 </td>
 <td>
 
@@ -239,11 +282,11 @@ I am a software engineer and a web developer. I am passionate about building web
 <td>skills</td>
 <td>
 
-<a href="skillType">`SkillType[]`</a>
+<a href="#skillType">`SkillType[]`</a>
 
 </td>
 <td> <strong>Without Icons</strong> You can specify you skills here, they will come in the form of badges.
-<img src="assets/skills-with-badges.png" alt="Skill with Icons">
+	<img src="assets/skills-with-badges.png" alt="Skill with Icons">
 </td>
 <td>
 
@@ -263,11 +306,11 @@ I am a software engineer and a web developer. I am passionate about building web
 <td>projects</td>
 <td>
 
-<a href="project">`Project[]`</a>
+<a href="#project">`Project[]`</a>
 
 </td>
 <td>This is where you mention your projects. This is what it will look like after you generate it.
-<img src="assets/sample-project.png" alt="Sample Project"/>
+	<img src="assets/sample-project.png" alt="Sample Project"/>
 </td>
 <td>
 
@@ -301,7 +344,7 @@ I am a software engineer and a web developer. I am passionate about building web
 
 </td>
 <td>This is where you mention all your work experince. The webpage will also be generated in the same sequence as this list
-<img src="assets/work-experience.png" alt="Work Experience"/>
+	<img src="assets/work-experience.png" alt="Work Experience"/>
 </td>
 <td>
 
@@ -358,6 +401,7 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <th>Property</th>
 <th>Type</th>
 <th>Description</th>
+<th>Required</th>
 </tr>
 </thead>
 <tbody>
@@ -365,11 +409,13 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <td>title</td>
 <td>string</td>
 <td>Title of the stat</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>value</td>
 <td>number</td>
 <td>Value of the stat</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
@@ -382,6 +428,7 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <th>Property</th>
 <th>Type</th>
 <th>Description</th>
+<th>Required</th>
 </tr>
 </thead>
 <tbody>
@@ -389,11 +436,13 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <td>type</td>
 <td>string</td>
 <td>Title for the Skill Type</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>list</td>
 <td>string[]</td>
 <td>List of Skills</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
@@ -406,6 +455,7 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <th>Property</th>
 <th>Type</th>
 <th>Description</th>
+<th>Required</th>
 </tr>
 </thead>
 <tbody>
@@ -413,26 +463,31 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <td>name</td>
 <td>string</td>
 <td>Name of the Project</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>description</td>
 <td>string</td>
 <td>Description of the Project</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>link</td>
 <td>string</td>
 <td>Deployment of the Project of the Project</td>
+<td>No</td>
 </tr>
 <tr>
 <td>image</td>
 <td>string</td>
 <td>Image of the Project</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>badges</td>
 <td>string[]</td>
 <td>Badges for the Project</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
@@ -445,6 +500,7 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <th>Property</th>
 <th>Type</th>
 <th>Description</th>
+<th>Required</th>
 </tr>
 </thead>
 <tbody>
@@ -452,26 +508,31 @@ If you wanna have coffee with me sometime feel free to message me on any of my s
 <td>company</td>
 <td>string</td>
 <td>Name of the Company</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>designation</td>
 <td>string</td>
 <td>Designation at the Company</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>time</td>
 <td>string</td>
 <td>Duration of work at the Company (Eg: 2019-2022)</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>description</td>
 <td>string</td>
 <td>Description of the Company</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>learning</td>
 <td>string[]</td>
 <td>What you learnt at the company</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>

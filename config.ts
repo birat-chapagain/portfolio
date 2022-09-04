@@ -6,7 +6,7 @@ import { InformationType, Theme } from "types";
  *
  * @type {Theme}
  */
-export const theme: Theme = "garden";
+export const theme: Theme = "cyberpunk";
 
 export const analyticsId = "G-2S22V4P442";
 export const deployedURL = "https://effortless-portfolio.vercel.app";
