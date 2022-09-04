@@ -45,15 +45,15 @@ To get your own portfolio up and running as fast as possible, you can use this p
 
 ### Generating Portfolio
 
-1. Fork the [sahrohit/effortless-portfolio](https://github.com/sahrohit/portfolio.git)
+1. Fork the [sahrohit/effortless-portfolio](https://github.com/sahrohit/effortless-portfolio.git)
 
    ```sh
-   https://github.com/sahrohit/portfolio.git
+   https://github.com/sahrohit/effortless-portfolio.git
    ```
 
    <img src="assets/showing-fork.png" width="600" alt="Fork Button">
 
-2. Rename your fork & add description.
+2. Rename your fork & add your project description.
 
    <img src="assets/new-fork.png" width="600" alt="New Fork Page">
 
@@ -63,27 +63,25 @@ To get your own portfolio up and running as fast as possible, you can use this p
 
 3. Find `config.ts` in the forked repo & open it.
 
-<img src="assets/show-config.png" width="600" alt="New Fork Page">
+	<img src="assets/show-config.png" width="600" alt="New Fork Page">
 
 4. Edit the config according to your needs. You can reference <a href="#config">`config information`</a> for the type of data you need to provide.
 
-<img src="assets/edit-config.png" width="600" alt="New Fork Page">
+	<img src="assets/edit-config.png" width="600" alt="New Fork Page">
 
-### Deploying Portfolio on Vercel
-
-(Loggin in with Github is recommended.)
+### Deploying Portfolio on Vercel (Github Login Recommended)
 
 1. Create a new project on Vercel.
 
-<img src="assets/newproject-vercel.png" width="600" alt="New Project Vercel">
+	<img src="assets/newproject-vercel.png" width="600" alt="New Project Vercel">
 
 2. Import your forked portfolio to vercel.
 
-<img src="assets/importproject-vercel.png" width="600" alt="Import Project Vercel">
+	<img src="assets/importproject-vercel.png" width="600" alt="Import Project Vercel">
 
 3. Click on the big blue `Deploy` button. Dont edit anything, if you dont know what you're doing.
 
-<img src="assets/deploy-vercel.png" width="600" alt="Import Project Vercel">
+	<img src="assets/deploy-vercel.png" width="600" alt="Import Project Vercel">
 
 4. Wait for the deployment to complete. You can see the build process on the screen.
 5. Once the deployment is complete, you can visit the portfolio by clicking on the portfolio preview.
