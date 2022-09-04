@@ -6,7 +6,7 @@ const Contact = () => {
 		return null;
 	}
 	return (
-		<div className="flex flex-col sm:flex-row flex-wrap gap-8 sm:gap-0 m-8 my-16">
+		<div className="flex flex-col sm:flex-row flex-wrap gap-8 sm:gap-0 m-8 my-16 items-center">
 			<div className="basis-2/5 w-full">
 				<div className="flex flex-col">
 					<h1 className="font-semibold text-6xl">Say Hello!</h1>
@@ -14,7 +14,7 @@ const Contact = () => {
 			</div>
 
 			<div className="basis-3/5">
-				<p>{information.cheesyOutro}</p>
+				<p className="whitespace-pre-line">{information.cheesyOutro}</p>
 			</div>
 		</div>
 	);

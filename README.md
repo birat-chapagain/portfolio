@@ -1,23 +1,323 @@
-# Example app with MDX
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="./public/logo_light.png" alt="Logo" width="80" height="80">
+  </a>
 
-This example shows using [MDX](https://github.com/mdx-js/mdx) as top level pages for your next.js app.
+<h3 align="center">Effortless Portfolio</h3>
 
-## Deploy your own
+  <p align="center">
+    Built with love & Next.js
+    <br />
+    <a href="https://effortless-portfolio.vercel.app">https://effortless-portfolio.vercel.app</a>
+ 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-mdx)
+</div>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-mdx&project-name=with-mdx&repository-name=with-mdx)
+## About The Project
 
-## How to use
+[![Product Name Screen Shot](https://shot.screenshotapi.net/screenshot?token=SYFRG8T-XWFMK5V-PGRW10V-VTR9YYG&url=https%3A%2F%2Fsahrohit.com.np&width=1536&height=722&full_page=true&output=image&file_type=webp&lazy_load=true&dark_mode=false&wait_for_event=domcontentloaded&delay=5000&ttl=86400)](https://effortless-portfolio.vercel.app)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Portfolio designed by KL Lawingo which has become a place to show off my skills which I learnt over the years. It has a long way to go, but it's a good start.
 
-```bash
-npx create-next-app --example with-mdx with-mdx-app
-# or
-yarn create next-app --example with-mdx with-mdx-app
-# or
-pnpm create next-app --example with-mdx with-mdx-app
+### Built With
+
+- [Next.js](https://nextjs.org/)
+- [ChakraUI](https://chakra-ui.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get your own portfolio up and running as fast as possible, you can use this project and follow the steps mention below.
+
+### Prerequisites
+
+- Github Account
+- Vercel Account (for Deployment)
+- Google Analytics Project (optional)
+
+### Generating Portfolio
+
+1.  Fork the [sahrohit/effortless-portfolio](https://github.com/sahrohit/portfolio.git)
+    ```sh
+    https://github.com/sahrohit/portfolio.git
+    ```
+  ![Fork Button](/assets/showing-fork.png)
+2.  Rename your fork & add description.
+  ![New Fork Page](/assets/new-fork.png)
+3.  If you see something like this, you've successfully forked the Repo.
+  ![Forking Completed](/assets/done-fork.png)
+  
+4.  Find `config.ts` in the forked repo & open it.
+   
+  ![New Fork Page](/assets/show-config.png)
+5.  Edit the config according to your needs.
+
+<table>
+  <thead>
+    <tr>
+      <td>Prop</td>
+      <td>Type</td>
+      <td>Description</td>
+      <td>Example</td>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>theme</td>
+      <td>
+
+`Theme`
+
+</td>
+<td>choose what you want your portfolio to look like</td>
+<td>garden</td>
+</tr>
+<tr>
+<td>email</td>
+<td>
+
+`string`
+
+</td>
+<td>Its self-explanatory bitch.</td>
+<td>sahrohit9586@gmail.com</td>
+</tr>
+<tr>
+<td>firstName</td>
+<td>string</td>
+<td>Its your first name.</td>
+<td>Rohit</td>
+</tr>
+<tr>
+<td>lastName</td>
+<td>string</td>
+<td>Its your last name.</td>
+<td>Sah</td>
+</tr>
+<tr>
+<td>description</td>
+<td>
+
+`string` (`\n` for linebreak)
+
+</td>
+<td>Description about yourself. (usually 20 words)</td>
+<td>I am a software engineer and a web developer. I am passionate about building web applications and solving problems.</td>
+</tr>
+<tr>
+<td>highlightingStats</td>
+<td>
+
+`HighlightingStatType[]`
+
+</td>
+            <td>
+            This appears as the highligted stats. Flex you huge numbers like Reddit Karma, Github Stars ✨.
+            <img src="assets/highlight-stats.png" alt="Highlight Stats"/>
+            </td>
+            <td>
+
+```ts
+[
+	{
+		title: "Projects",
+		value: 10,
+	},
+	{
+		title: "Reddit Karma",
+		value: 13862,
+	},
+];
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+</td>
+        </tr>
+
+<tr>
+  <td>socials</td>
+  <td>
+
+`SocialType`
+
+  </td>
+  <td>Social Media Links, if you dont have a account pass `null` so that social media icon wont appear on the page.
+  <img src="assets/social-icons.png" alt="Highlight Stats"/>
+  </td>
+  <td>
+
+```ts
+{
+		github: "http://github.com/sahrohit",
+		linkedin: "https://www.linkedin.com/in/sahrohit/",
+		twitter: "https://twitter.com/sah_rohite",
+}
+```
+
+  </td>
+</tr>
+<tr>
+  <td>whatido</td>
+  <td>
+  
+`string` (`\n` for linebreak)
+  </td>
+  <td>Description for your Skills section. You can get as creative as you want.</td>
+  <td>I`ve been learning web design for several years and am presently pursuing a degree as a Computer Science Engineer with an emphasis on database architecture, and machine learning.</td>
+</tr>
+
+<tr>
+<td>skillsWithIcons</td>
+<td>
+`SkillType[]`
+</td>
+<td>You can specify you skills here, they will come in the form of Icons.
+<img src="assets/skills-with-icons.png" alt="Skill with Icons">
+</td>
+<td>
+
+```ts
+[
+	{
+		type: "Frontend Centric",
+		list: ["HTML", "CSS", "Javascript", "React", "Nextjs", "Angular"],
+	},
+	{
+		type: "Backend Centric",
+		list: ["Typescript", "Graphql", "Nodejs", "Nestjs", "Expressjs"],
+	},
+];
+```
+
+</td>
+</tr>
+
+<tr>
+<td>projects</td>
+<td>`Project[]`</td>
+<td>This is where you mention your projects. This is what it will look like after you generate it.
+<img src="assets/sample-project.png"/>
+</td>
+<td>
+
+```ts
+[
+	{
+		name: "Portfolio",
+		description: "This is my portfolio website.",
+		link: "https://sahrohit.com.np/",
+		image: "https://picsum.photos/500/500",
+		badges: ["Javascript", "Typescript"],
+	},
+	{
+		name: "Portfolio",
+		description: "This is my portfolio website.",
+		link: "https://sahrohit.com.np/",
+		image: "https://picsum.photos/500/500",
+		badges: ["Javascript", "Typescript", "Nextjs", "ChakraUI"],
+	},
+];
+```
+
+</td>
+</tr>
+
+<tr>
+<td>workExperince</td>
+<td>
+`WorkExperienceType[]`
+</td>
+<td>This is where you mention all your work experince. The webpage will also be generated in the same sequence as this list
+<img src="assets/work-experience.png" alt="Work Experience"/>
+</td>
+<td>
+
+```ts
+{
+			company: "Apple Inc.",
+			description:
+				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
+			designation: "Senior Product Manager",
+			time: "2022 - Present",
+			learning: [
+				"Learnt to print Hello World",
+				"Learnt to center CSS divs",
+				"Learnt to crash the production the fastest.",
+			],
+		},
+		{
+			company: "Apple Inc.",
+			description:
+				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
+			designation: "Senior Product Manager",
+			time: "2022 - Present",
+			learning: [
+				"Learnt to print Hello World",
+				"Learnt to center CSS divs",
+				"Learnt to crash the production the fastest.",
+			],
+		},
+```
+
+</td>
+</tr>
+
+<tr>
+<td>cheesyOutro</td>
+<td>string (
+    `\n`
+     for linebreak
+    )</td>
+<td>This is where you can get extra creative and add cheesy exit text.</td>
+<td>Well, I vaguely recall myself taking the blue pill. So, whoever designed Earth C-137, really did a great job of designing it. Respecting that, I really enjoy travelling and discovering natural beauties. \n
+If you wanna have coffee with me sometime feel free to message me on any of my social media or shoot me an email or tag a pigeon with your message and send it my way.</td>
+</tr>
+
+</tbody>
+
+</table>
+
+### After Setting Up
+
+To initialize the frontend,
+
+`npm run dev` - Starts a Next App at http://localhost:3000
+
+<!-- ROADMAP -->
+<!--
+## Roadmap
+
+-   [] Feature 1
+-   [] Feature 2
+-   [] Feature 3
+    -   [] Nested Feature
+
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- CONTACT -->
+
+## Credits
+
+Design by KL Lawingo

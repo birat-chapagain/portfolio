@@ -8,6 +8,9 @@ import { InformationType, Theme } from "types";
  */
 export const theme: Theme = "garden";
 
+export const analyticsId = "G-2S22V4P442";
+export const deployedURL = "https://effortless-portfolio.vercel.app";
+
 export const information: InformationType = {
 	email: "sahrohit9586@gmail.com",
 	firstName: "Rohit",
