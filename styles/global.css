@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
+
 *::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
 	width: 26px;

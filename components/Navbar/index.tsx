@@ -1,7 +1,9 @@
 import Logo from "@components/shared/Logo";
+import { information } from "config";
 import Link from "next/link";
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import Theme from "./Theme";
 
 const Navbar = () => {
 	return (
@@ -16,17 +18,22 @@ const Navbar = () => {
 						className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 					>
 						<li>
-							<Link href="/about">About</Link>
+							<Link href="#whatido">Skills</Link>
 						</li>
 						<li>
-							<Link href="/about">Contacts</Link>
+							<Link href="#projects">Projects</Link>
+						</li>
+						<li>
+							<Link href="#workexperience">Work Experience</Link>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<Logo />
 			<div className="navbar-end">
-				<button className="btn btn-ghost btn-circle">
+				{information.email === "sahrohit9586@gmail.com" ? <Theme /> : null}
+
+				{/* <button className="btn btn-ghost btn-circle">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="h-5 w-5"
@@ -60,7 +67,7 @@ const Navbar = () => {
 						</svg>
 						<span className="badge badge-xs badge-primary indicator-item"></span>
 					</div>
-				</button>
+				</button> */}
 			</div>
 		</div>
 	);

@@ -1,15 +1,14 @@
-import React from "react";
-import { information } from "../../config";
 import {
 	BsFacebook,
 	BsGithub,
-	BsLinkedin,
-	BsTwitter,
 	BsInstagram,
+	BsLinkedin,
 	BsMedium,
-	BsYoutube,
 	BsStackOverflow,
+	BsTwitter,
+	BsYoutube,
 } from "react-icons/bs";
+import { information } from "../../config";
 
 const Social = () => {
 	return (
