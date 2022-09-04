@@ -51,23 +51,23 @@ To get your own portfolio up and running as fast as possible, you can use this p
 https://github.com/sahrohit/portfolio.git
 ```
 
-![Fork Button](/assets/showing-fork.png)
+<img src="assets/showing-fork.png" width="600" alt="Fork Button">
 
 2. Rename your fork & add description.
 
-![New Fork Page](/assets/new-fork.png)
+<img src="assets/new-fork.png" width="600" alt="New Fork Page">
 
 3. If you see something like this, you've successfully forked the Repo.
 
-![Forking Completed](/assets/done-fork.png)
+<img src="assets/done-fork.png" width="600" alt="Forking Completed">
 
 4. Find `config.ts` in the forked repo & open it.
 
-![New Fork Page](/assets/show-config.png)
+<img src="assets/show-config.png" width="600" alt="New Fork Page">
 
 5. Edit the config according to your needs. You can reference <a href="#config">`config information`</a> for the type of data you need to provide.
 
-![New Fork Page](/assets/edit-config.png)
+<img src="assets/edit-config.png" width="600" alt="New Fork Page">
 
 ### After Setting Up
 
@@ -256,7 +256,7 @@ I am a software engineer and a web developer. I am passionate about building web
 <td>projects</td>
 <td>`Project[]`</td>
 <td>This is where you mention your projects. This is what it will look like after you generate it.
-<img src="assets/sample-project.png"/>
+<img src="assets/sample-project.png" alt="Sample Project"/>
 </td>
 <td>
 
