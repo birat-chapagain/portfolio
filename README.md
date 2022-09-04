@@ -256,7 +256,7 @@ I am a software engineer and a web developer. I am passionate about building web
 <a href="#skillType">`SkillType[]`</a>
 
 </td>
-<td>You can specify you skills here, they will come in the form of Icons.
+<td>You can specify you skills here, they will come in the form of Icons. Dont forget to add the icons in `icons.ts`. You can export icons from `react-icons` or `simple-icons`.
 	<img src="assets/skills-with-icons.png" alt="Skill with Icons">
 </td>
 <td>
@@ -552,4 +552,4 @@ Don't forget to give the project a star! Thanks again!
 
 ## Credits
 
-Design by KL Lawingo
+Design by Rohit Kumar Sah

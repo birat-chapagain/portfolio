@@ -9,6 +9,7 @@ import Footer from "@components/shared/Footer";
 import WhatIDo from "@components/WhatIDo";
 import WorkExperience from "@components/WorkExperience";
 import { NextPage } from "next";
+import { information } from "../config";
 
 const HomePage: NextPage = () => {
 	return (
@@ -34,11 +35,13 @@ const HomePage: NextPage = () => {
 					</div>
 				</FadeInWhenVisible>
 			</section>
-			<section id="workexperience">
-				<FadeInWhenVisible>
-					<WorkExperience />
-				</FadeInWhenVisible>
-			</section>
+			{information.workExperince.length > 0 && (
+				<section id="workexperience">
+					<FadeInWhenVisible>
+						<WorkExperience />
+					</FadeInWhenVisible>
+				</section>
+			)}
 			<section id="contacts">
 				<FadeInWhenVisible>
 					<Contact />
