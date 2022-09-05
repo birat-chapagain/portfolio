@@ -6,36 +6,36 @@ import { InformationType, Theme } from "types";
  *
  * @type {Theme}
  */
-export const theme: Theme = "cyberpunk";
+export const theme: Theme = "retro";
 
 export const analyticsId = "G-2S22V4P442";
-export const deployedURL = "https://effortless-portfolio.vercel.app";
+export const deployedURL = "https://biratchapagain.com.np";
 
 export const information: InformationType = {
-	email: "sahrohit9586@gmail.com",
-	firstName: "Rohit",
-	lastName: "Sah",
+	email: "biratchcapagain68@gmail.com",
+	firstName: "Birat",
+	lastName: "Chapagain",
 	description:
 		"I am a software engineer and a web developer. I am passionate about building web applications and solving problems.",
 	highlightingStats: [
 		{
 			title: "Projects",
-			value: 10,
+			value: 4,
 		},
 		{
-			title: "Reddit Karma",
-			value: 13862,
+			title: "Backlogs",
+			value: 0,
 		},
 	],
 	socials: {
-		github: "http://github.com/sahrohit",
-		linkedin: "https://www.linkedin.com/in/sahrohit/",
-		twitter: "https://twitter.com/sah_rohite",
-		instagram: "https://www.instagram.com/sah_rohite/",
-		facebook: "https://www.facebook.com/imadeyoureadthis26/",
-		medium: "https://medium.com/@sahrohit9586",
+		github: "http://github.com/birat-chapagain",
+		linkedin: "https://www.linkedin.com/in/birat-chapagain-6a6b16220/",
+		twitter: null,
+		instagram: null,
+		facebook: null,
+		medium: null,
 		youtube: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-		stackoverflow: "https://stackoverflow.com/users/13238555/rohit",
+		stackoverflow: null,
 	},
 	whatido:
 		"I`ve been learning web design for several years and am presently pursuing a degree as a Computer Science Engineer with an emphasis on database architecture, and machine learning.",
@@ -89,55 +89,6 @@ export const information: InformationType = {
 			badges: ["Javascript", "Typescript"],
 		},
 	],
-	workExperince: [
-		{
-			company: "Apple Inc.",
-			description:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
-			designation: "Senior Product Manager",
-			time: "2022 - Present",
-			learning: [
-				"Learnt to print Hello World",
-				"Learnt to center CSS divs",
-				"Learnt to crash the production the fastest.",
-			],
-		},
-		{
-			company: "Apple Inc.",
-			description:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
-			designation: "Senior Product Manager",
-			time: "2022 - Present",
-			learning: [
-				"Learnt to print Hello World",
-				"Learnt to center CSS divs",
-				"Learnt to crash the production the fastest.",
-			],
-		},
-		{
-			company: "Apple Inc.",
-			description:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
-			designation: "Senior Product Manager",
-			time: "2022 - Present",
-			learning: [
-				"Learnt to print Hello World",
-				"Learnt to center CSS divs",
-				"Learnt to crash the production the fastest.",
-			],
-		},
-		{
-			company: "Apple Inc.",
-			description:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et alias delectus autem quia, sint blanditiis, \n facere distinctio perspiciatis rem illo aspernatur dicta quibusdam quisquam, laudantium consequuntur officiis repellendus fugiat!",
-			designation: "Senior Product Manager",
-			time: "2022 - Present",
-			learning: [
-				"Learnt to print Hello World",
-				"Learnt to center CSS divs",
-				"Learnt to crash the production the fastest.",
-			],
-		},
-	],
+	workExperince: [],
 	cheesyOutro: "Thanks for reading till the end.",
 };
