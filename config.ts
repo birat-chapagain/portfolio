@@ -64,7 +64,7 @@ export const information: InformationType = {
 			name: "Portfolio",
 			description: "This is my portfolio website.",
 			link: "https://gotrip.vercel.app/",
-			image: "https://picsum.photos/500/500",
+			image: "https://cdn.discordapp.com/attachments/695873894980124702/1016630845412483102/unknown.png",
 			badges: ["Javascript", "Typescript"],
 		},
 		{
