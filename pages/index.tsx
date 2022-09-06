@@ -47,9 +47,6 @@ const HomePage: NextPage = () => {
 					<Contact />
 				</FadeInWhenVisible>
 			</section>
-			<FadeInWhenVisible>
-				<Footer />
-			</FadeInWhenVisible>
 		</>
 	);
 };
